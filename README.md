@@ -1,22 +1,26 @@
+# Investment outcomes
 
-outside of nix
-create the virtual environment
+## Getting started
+
+If not using Nix, create a virtual environment
 
 ```sh
 python3 -m venv .venv
 ```
 
-activate the virtual environment
+Then, activate the virtual environment
 
 ```sh
 source .venv/bin/activate
 ```
 
+Dependencies
+
+```sh
 pip install matplotlib
-
-PyQt6
-
 pip install PyQt6
+```
 
-todo:
-probably need a requirements.txt
+## TODO
+
+Probably need a `requirements.txt`
