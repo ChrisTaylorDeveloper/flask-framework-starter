@@ -3,9 +3,9 @@
 let
   ourCustomPyEnv = pkgs.python3.withPackages (ps: with ps; [
     pip
+    pandas
     # pyinstaller
     # numpy
-    pandas
     # virtualenv
     # requests # HTTP client library 
     # docopt
