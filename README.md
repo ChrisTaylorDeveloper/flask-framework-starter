@@ -4,7 +4,7 @@
 
 Aim for directory structure and guidance here:
 
-<https://flask.palletsprojects.com/en/stable/tutorial/layout/>
+<https://flask.palletsprojects.com/en/stable/tutorial/>
 
 ## Getting started
 
