@@ -21,6 +21,6 @@ pip install matplotlib
 pip install PyQt6
 ```
 
-## TODO
-
-Probably need a `requirements.txt`
+```sh
+pip install -r ./requirements.txt
+```
