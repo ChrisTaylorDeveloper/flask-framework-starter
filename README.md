@@ -1,5 +1,11 @@
 # Investment outcomes
 
+## Todo
+
+Aim for directory structure and guidance here:
+
+<https://flask.palletsprojects.com/en/stable/tutorial/>
+
 ## Getting started
 
 If not using Nix, create a virtual environment
@@ -23,4 +29,10 @@ pip install PyQt6
 
 ```sh
 pip install -r ./requirements.txt
+```
+
+## Run Flask
+
+```shell
+flask --app finance_flask run
 ```
