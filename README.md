@@ -1,5 +1,11 @@
 # Investment outcomes
 
+## Todo
+
+Aim for directory structure and guidance here:
+
+<https://flask.palletsprojects.com/en/stable/tutorial/layout/>
+
 ## Getting started
 
 If not using Nix, create a virtual environment
