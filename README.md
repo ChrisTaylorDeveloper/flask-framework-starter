@@ -24,3 +24,9 @@ pip install PyQt6
 ```sh
 pip install -r ./requirements.txt
 ```
+
+## Run Flask
+
+```shell
+flask --app finance_flask run
+```
