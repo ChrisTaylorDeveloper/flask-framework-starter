@@ -6,4 +6,4 @@ cd "$(dirname "$0")"
 # or, perhaps
 # source .venv/bin/activate
 
-flask --app finance run
+flask --app finance run --debug
