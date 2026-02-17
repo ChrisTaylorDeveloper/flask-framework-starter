@@ -1,38 +1,85 @@
-# Investment outcomes
+<a id="readme-top"></a><br />
 
-## Todo
+<div align="center">
+  <h1 align="center">Flask framework starter</h1>
+</div>
 
-Aim for directory structure and guidance here:
+<ol>
+  <li><a href="#about">About</a></li>
+  <li><a href="#getting-started">Getting Started</a></li>
+  <li><a href="#deployment">Deployment</a></li>
+  <li><a href="#roadmap">Roadmap</a></li>
+  <li><a href="#examples">Examples</a></li>
+</ol>
 
-<https://flask.palletsprojects.com/en/stable/tutorial/>
+## About
 
-## Getting started
+A Flask web framework starter project.
 
-If not using Nix, create a virtual environment
+### Built With
+
+* Nix
+* Flask
+* Bootstrap
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+### Prerequisites
+
+* Nix.
+
+### Dev deployment
+
+Start a nix shell
+
+```sh
+nix-shell
+```
+
+Install dependencies and run Flask
+
+```shell
+pip install -r requirements.txt
+flask --app flaskr run --debug
+```
+
+Visit <http://localhost/hello>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Deployment
+
+An explanation of how to run an instance of this template in a production environment.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Roadmap
+
+* [ ] Establish a minimal viable boilerplate project.
+  * [ ] Sub task.
+  * [ ] Sub task.
+* [ ] Aim for directory structure and guidance here: <https://flask.palletsprojects.com/en/stable/tutorial/>
+  * [ ] Sub task.
+  * [ ] Sub task.
+* [ ] Add React examples
+  * [ ] Sub task.
+  * [ ] Sub task.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Examples
+
+### Plotting
+
+Nix shell doesn't work for some reason!
 
 ```sh
 python3 -m venv .venv
-```
-
-Then, activate the virtual environment
-
-```sh
 source .venv/bin/activate
-```
-
-Dependencies
-
-```sh
-pip install matplotlib
-pip install PyQt6
-```
-
-```sh
 pip install -r ./requirements.txt
+python3 plot_example.py
 ```
 
-## Run Flask
-
-```shell
-flask --app finance_flask run
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
