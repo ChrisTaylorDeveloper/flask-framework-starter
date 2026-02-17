@@ -3,7 +3,7 @@
 let
   ourCustomPyEnv = pkgs.python3.withPackages (ps: with ps; [
     pip
-    pandas
+    # pandas
     # pyinstaller
     # numpy
     # virtualenv
