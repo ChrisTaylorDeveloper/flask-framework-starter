@@ -57,15 +57,14 @@ An explanation of how to run an instance of this template in a production enviro
 
 ## Roadmap
 
-* [ ] Establish a minimal viable boilerplate project.
+* [ ] Establish minimal viable boilerplate project.
   * [ ] Sub task.
   * [ ] Sub task.
 * [ ] Aim for directory structure and guidance here: <https://flask.palletsprojects.com/en/stable/tutorial/>
-  * [ ] Sub task.
-  * [ ] Sub task.
-* [ ] Add React examples
-  * [ ] Sub task.
-  * [ ] Sub task.
+* [ ] Database and ORM.
+* [ ] Production deployment with Docker.
+* [ ] Admin backend.
+* [ ] Add React examples.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
