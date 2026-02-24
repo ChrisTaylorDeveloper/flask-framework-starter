@@ -32,13 +32,13 @@ A Flask web framework starter project.
 
 ### Dev deployment
 
-Start a nix shell
+1. Start a nix shell
 
 ```sh
 nix-shell
 ```
 
-Install dependencies and run Flask
+1. Install dependencies and run Flask
 
 ```shell
 pip install -r requirements.txt
