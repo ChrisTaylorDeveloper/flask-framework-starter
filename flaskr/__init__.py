@@ -1,6 +1,7 @@
 import os
 
 from flask import Flask, render_template
+from .weather import get_weather
 
 
 def create_app(test_config=None):
@@ -27,5 +28,11 @@ def create_app(test_config=None):
     @app.route("/hello")
     def hello():
         return render_template("hello.html")
+
+    @app.route("/weather")
+    def weather():
+        weather_data = None
+        weather_data = get_weather("Jersey")
+        return render_template("weather.html", weather=weather_data)
 
     return app
